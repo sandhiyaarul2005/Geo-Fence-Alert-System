@@ -14,7 +14,7 @@ This document outlines the hardware components and configuration procedures for 
 * **GNSS Module:** Integrated GNSS receiver for real-time positioning : EC200G-CN LTE Cat 1 4G GNSS Industrial Modem
 * **LTE Module:** Cellular communication module supporting packet data services : EC200G-CN LTE Cat 1 4G GNSS Industrial Modem
 * **SIM Card:** Required for LTE network connectivity
-* **Interface:** USB/UART-based serial communication
+* **Interface:** USB-based serial communication
 
 ### 2.2 Functional Capabilities
 
@@ -99,16 +99,6 @@ The overall system operation follows a sequential workflow:
 3. Coordinates are converted and validated
 4. LTE module establishes network connectivity
 5. Processed data is transmitted to remote servers using MQTT or HTTP protocols
-
----
-
-## 6. Implementation Considerations
-
-* Ensure correct identification of serial interfaces (`/dev/ttyUSBx`)
-* GNSS performance depends on satellite visibility and environmental conditions
-* LTE connectivity requires a valid SIM card and correct APN configuration
-* Stable power supply is essential for reliable module operation
-* Appropriate timeout and error handling mechanisms should be implemented in software
 
 ---
 
