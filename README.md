@@ -28,8 +28,7 @@ The Geo-Fence Alert System monitors device location in real time and generates a
 
 ## Applications
 
-* Vehicle tracking
-* Safety monitoring
-* Restricted area enforcement
-* Drone geo-fencing
-
+* Scalable deployment for maritime boundary monitoring and coastal geo-fencing applications 
+* Industrial and restricted area boundary enforcement  
+* Drone-based geo-fencing and autonomous navigation control 
+* Personal safety and remote monitoring 
