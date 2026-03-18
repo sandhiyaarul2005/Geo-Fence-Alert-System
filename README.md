@@ -2,14 +2,14 @@
 
 ## Overview
 
-The Geo-Fence Alert System monitors device location in real time and generates alerts when it enters or exits a predefined geographical boundary.
+The Geo-Fence Alert System monitors device location in real time and generates alerts when it exits a predefined geographical boundary.
 
 ## Features
 
 * Real-time GPS/GNSS tracking
 * Configurable geo-fence boundaries
-* Entry and exit alert generation
-* Wireless communication support (GSM/LTE/Wi-Fi)
+* Exit alert generation
+* Wireless communication support (LTE/Wi-Fi)
 * Scalable and modular design
 
 ## System Workflow
@@ -21,9 +21,9 @@ The Geo-Fence Alert System monitors device location in real time and generates a
 
 ## Tech Stack
 
-* Hardware: GPS module, Raspberry Pi / Microcontroller
-* Software: Python / Embedded C
-* Communication: MQTT / HTTP / Serial
+* Hardware Platform: GNSS module, LTE communication module, Raspberry Pi / Microcontroller
+* Software Environment: Python-based implementation
+* Communication Interfaces: Serial communication, Cloud integration, MQTT protocol
 
 
 ## Applications
