@@ -102,7 +102,7 @@ The overall system operation follows a sequential workflow:
 
 ---
 
-## 7. Conclusion
+## 6. Conclusion
 
 The described hardware configuration provides a robust platform for real-time geolocation and communication. The integration of GNSS and LTE technologies enables reliable deployment of geo-fencing and location-based alert systems in practical environments.
 
