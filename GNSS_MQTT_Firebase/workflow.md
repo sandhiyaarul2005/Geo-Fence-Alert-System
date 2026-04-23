@@ -24,7 +24,7 @@ The GNSS module is interfaced with the Raspberry Pi via a UART serial connection
 * Location data is periodically queried using:
 
   ```
-  AT+QGPSLOC=0
+  AT+QGPSLOC=1
   ```
 
 The module responds with NMEA-like structured data containing:
