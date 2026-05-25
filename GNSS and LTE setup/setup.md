@@ -21,7 +21,7 @@ This document outlines the hardware components and configuration procedures for 
 * Continuous acquisition of geospatial coordinates
 * Support for NMEA sentence output (e.g., `$GNRMC`, `$GNGSV`)
 * Cellular network registration and data session establishment
-* IP-based communication for cloud integration
+* IP-based communication
 
 ---
 
@@ -89,20 +89,4 @@ A Python-based interface is used for:
 | Verify IP address    | `AT+QIACT?`                          |
 
 ---
-
-## 5. System Integration
-
-The overall system operation follows a sequential workflow:
-
-1. GNSS module acquires real-time positional data
-2. Raspberry Pi reads and processes GNSS output via serial interface
-3. Coordinates are converted and validated
-4. LTE module establishes network connectivity
-5. Processed data is transmitted to remote servers using MQTT or HTTP protocols
-
----
-
-## 6. Conclusion
-
-The described hardware configuration provides a robust platform for real-time geolocation and communication. The integration of GNSS and LTE technologies enables reliable deployment of geo-fencing and location-based alert systems in practical environments.
 
