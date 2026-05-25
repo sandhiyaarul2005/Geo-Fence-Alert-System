@@ -89,3 +89,10 @@ A Python-based interface is used for:
 | Verify IP address    | `AT+QIACT?`                          |
 
 ---
+
+## 5. Conclusion 
+The hardware components LTE and GNSS are configured and check for its working through AT commands.
+GNSS - Latitude and Longitude are extracted successfully
+LTE - IP configuration and transmission of data is validated
+
+---
