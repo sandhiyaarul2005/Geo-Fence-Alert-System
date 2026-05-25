@@ -1,6 +1,6 @@
 # Geo-Fence Alert System
 
-An IoT-based real-time geofence monitoring and alert system developed using Raspberry Pi and EC200 GNSS/LTE module. The system continuously tracks user location, evaluates geofence boundaries, and generates alerts through audio, SMS, MQTT, and cloud services.
+An IoT-based real-time geofence monitoring and alert system developed using Raspberry Pi and EC200 GNSS/LTE module. The system continuously tracks user location, evaluates geofence boundaries, and generates alerts through audio, SMS and updates through MQTT, and cloud services.
 
 ## Features
 
@@ -100,32 +100,5 @@ AT+CMGS="number"
 - Personal safety systems
 - Asset monitoring
 - Restricted area surveillance
-- Industrial safety monitoring
 
 ---
-
-## Future Enhancements
-
-- Satellite communication support
-- Mobile application integration
-- AI-based tracking analytics
-- Energy optimization
-- Emergency response integration
-
----
-
-## Authors
-
-- Sandhiya A
-- Mirunalini S
-- Navina P
-
-Department of Electronics and Communication  
-College of Engineering Guindy, Anna University
-
----
-
-## Sponsor
-
-Centre for Sponsored Research and Consultancy (CSRC)  
-Anna University, Chennai
