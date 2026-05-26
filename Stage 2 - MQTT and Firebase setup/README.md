@@ -57,9 +57,9 @@ firebase_admin.initialize_app(cred, {
 })
 ```
 ---
-## Outputs Observed
+### Outputs Observed
 Reverse geo-coding is performed to convert the geographic-coordinates into human readable address
 OpenStreetMap Nominatim API is used: https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json
+The program sends the latitude, longitude and Name of the place to cloud and MQTT broker
 
-The program send the latitude, longitude and name of the place to cloud and MQTT broker
 ---
