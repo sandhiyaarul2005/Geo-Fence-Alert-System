@@ -23,3 +23,6 @@ The EC200 module communicates with the controller using **AT commands over seria
    ```bash
    AT+CMGS="+91xxxxxxxxxx"
    ```
+4. **Send Message Payload**
+   - The message includes: Human readable Place name, Google map links with latitude and longitude
+---
