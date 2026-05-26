@@ -10,11 +10,7 @@ GNSS Module → Raspberry Pi → Data Processing → Reverse Geocoding API (Loca
 
 ## MQTT (Message Queuing Telemetry Transport)
 
-### Definition
-
 MQTT is a lightweight publish-subscribe network protocol used for IoT communication. It is designed for low bandwidth, high latency, or unreliable networks.
-
----
 
 ### MQTT Architecture
 
@@ -26,15 +22,11 @@ MQTT follows a **publish-subscribe model**:
 
 GNSS Device → Raspberry Pi (Publisher) → MQTT Broker → Subscribers (Live dashboard)
 
----
-
 ### MQTT Broker Details
 
 - Broker: broker.hivemq.com  
 - Port: 1883  
 - Topic Used: gnss/data  
-
----
 
 ### MQTT Python Library
 
