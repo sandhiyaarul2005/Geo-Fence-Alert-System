@@ -17,3 +17,9 @@ The EC200 module communicates with the controller using **AT commands over seria
 2. **Enable SMS Text Mode**
    ```bash
    AT+CMGF=1
+   ```
+3. **Prepare SMS transmission**
+   - The recipient mobile number is set using:
+   ```bash
+   AT+CMGS="+91xxxxxxxxxx"
+   ```
