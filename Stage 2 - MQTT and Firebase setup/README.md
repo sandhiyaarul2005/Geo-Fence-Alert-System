@@ -32,7 +32,11 @@ GNSS Device → Raspberry Pi (Publisher) → MQTT Broker → Subscribers (Live d
 
 This project uses **Paho MQTT Client**
 
-#### Installation
+#### Commands to setup MQTT
 
 ```bash
 pip install paho-mqtt
+import paho.mqtt.client as mqtt
+mqtt_client = mqtt.Client()
+mqtt_client.connect("broker.hivemq.com", 1883, 60)
+mqtt_client.publish("gnss/data", payload)
