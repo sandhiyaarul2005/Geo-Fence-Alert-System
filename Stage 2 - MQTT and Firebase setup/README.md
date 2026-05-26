@@ -18,11 +18,13 @@ GNSS Device → Raspberry Pi (Publisher) → MQTT Broker → Subscribers (Live d
 - Broker: broker.hivemq.com  
 - Port: 1883  
 - Topic Used: gnss/data  
-### MQTT Python Library
+### MQTT Python Library installation
 This project uses **Paho MQTT Client**
-#### Commands to setup MQTT
 ```bash
 pip install paho-mqtt
+```
+### Initialising MQTT in the program
+```bash
 import paho.mqtt.client as mqtt
 mqtt_client = mqtt.Client()
 mqtt_client.connect("broker.hivemq.com", 1883, 60)
