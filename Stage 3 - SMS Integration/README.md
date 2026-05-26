@@ -26,3 +26,8 @@ The EC200 module communicates with the controller using **AT commands over seria
 4. **Send Message Payload**
    - The message includes: Human readable Place name, Google map links with latitude and longitude
 ---
+### Outputs Obtained
+
+Messages are received by the registered mobile number with minimal latency, this could be scaled to give advance alerts, when the boundary conditions are about to be crossed
+
+---
