@@ -30,3 +30,29 @@ mqtt_client.publish("gnss/data", payload)
 ```
 ---
 
+## Firebase Cloud Integration
+Cloud integration allows IoT devices to store and manage data remotely in cloud databases for monitoring and analysis.
+Cloud storage used here: Firebase
+### Firebase Setup 
+Create a Firebase Account
+Create a New Project
+Enable Realtime Database
+Generate Service Account Key - .json file is generated and this file has to be used in the program
+Get Database URL - This URL is used in the program
+### Libraries to be installed
+```bash
+pip install firebase-admin
+```
+### Initializing the Firebase in the program
+```
+import firebase_admin
+from firebase_admin import credentials, db
+
+cred = credentials.Certificate("serviceAccountKey.json")
+
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://your-project-id.firebaseio.com/'
+})
+```
+---
+
